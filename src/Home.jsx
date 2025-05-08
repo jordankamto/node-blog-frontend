@@ -1,9 +1,14 @@
 import React from "react";
+import Navbar from "./shared/components/Navbar";
+import Footer from "./shared/components/Footer";
+import Article from "./articles/pages/Article";
 
 const Home = () => {
   return (
     <>
-      <h1 className="text-4xl font-sans font-medium">Homepage</h1>
+      <Navbar isAuthenticated={false} isRegistered={false} />
+      <Article />
+      <Footer />
     </>
   );
 };
