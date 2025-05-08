@@ -20,6 +20,8 @@ const ArticleList = (props) => {
           title={article.title}
           content={article.content}
           imageUrl={article.imageUrl}
+          author={article.author}
+          publishedDate={article.publishedDate}
         />
       ))}
     </div>
