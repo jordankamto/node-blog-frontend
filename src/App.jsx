@@ -8,14 +8,16 @@ import {
 
 import Home from "./Home";
 import Users from "./users/pages/user";
+import Notfound from "./Notfound";
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" exact element={<Home />} />
+        <Route path="/not-found" exact element={<Notfound />} />
         <Route path="/users" exact element={<Users />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/not-found" replace />} />
       </Routes>
     </Router>
   );
