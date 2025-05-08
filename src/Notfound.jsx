@@ -7,7 +7,7 @@ const Notfound = () => {
     <>
       <Navbar isAuthenticated={false} isRegistered={false} />
       <div className="flex flex-row justify-center py-10">
-        <p className="text-2xl font-bold ">404 - Page not found</p>
+        <p className="text-2xl font-bold">404 - Page not found</p>
       </div>
       <Footer />
     </>
