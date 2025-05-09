@@ -35,4 +35,16 @@ export const ARTICLES = [
     author: "SuperAdmin",
     publishedDate: "08/05/2025",
   },
+  {
+    id: "12345",
+    title:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!",
+    imageUrl: "../assets/image.png",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, doloremque!",
+    author: "SuperAdmin",
+    publishedDate: "08/05/2025",
+  },
 ];
+
+export const ARTICLE = {};

@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="p-4 bg-gray-200 border-gray-200 md:p-8 lg:p-10 lg:absolute bottom-0 w-full">
+    <footer className="p-4 bg-gray-200 border-gray-200 md:p-8 lg:p-10 lg:relative bottom-0 w-full mt-auto">
       <div className="mx-auto max-w-screen-xl text-center">
         <a
-          href="#"
+          href="/"
           className="flex justify-center items-center text-2xl font-semibold text-gray-900"
         >
           <img

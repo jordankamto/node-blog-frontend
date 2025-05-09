@@ -13,10 +13,11 @@ const ArticleList = (props) => {
   }
 
   return (
-    <div className="flex flex-row justify-center py-10">
+    <div className="flex flex-wrap justify-center gap-4 py-10">
       {props.articles.map((article) => (
         <ArticleItem
           key={article.id}
+          id={article.id}
           title={article.title}
           content={article.content}
           imageUrl={article.imageUrl}
