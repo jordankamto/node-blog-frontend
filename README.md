@@ -6,14 +6,14 @@ This is the frontend of the **React-Blog** project, built with React and Vite. I
 
 - Display a list of articles fetched from the backend API.
 - View detailed information about individual articles.
-- Create, update, and delete articles (if implemented).
+- Create, update, and delete articles.
 - Responsive design for a seamless experience across devices.
 
 ## Tech Stack
 
 - **Frontend**: React, Vite, TailwindCSS (or any other CSS framework you're using).
 - **Backend**: [node-blog-api](https://github.com/jordankamto/node-blog-api) (Node.js + Express).
-- **State Management**: (e.g., Context API, Redux, or any other library if applicable).
+- **State Management**: (e.g., Context API, Redux, or any other libraries).
 - **HTTP Client**: Axios or Fetch API for API communication.
 
 ## Setup Instructions
@@ -21,7 +21,7 @@ This is the frontend of the **React-Blog** project, built with React and Vite. I
 ### Prerequisites
 
 - Node.js (v16 or higher recommended)
-- npm or yarn
+- npm
 - Backend API: Ensure the `node-blog-api` is running locally or deployed.
 
 ### Installation
