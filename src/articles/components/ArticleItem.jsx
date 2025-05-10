@@ -13,12 +13,12 @@ const ArticleItem = (props) => {
             {props.title}
           </h5>
         </Link>
-        <p className="mb-3 font-normal text-gray-700 truncate">
+        <p className="mb-5 font-normal text-gray-700 truncate">
           {props.content}
         </p>
         <Link
           to={`/article/${props.id}`}
-          className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg"
+          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-5"
         >
           Read more
         </Link>

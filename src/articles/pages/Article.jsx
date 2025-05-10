@@ -6,6 +6,8 @@ import Footer from "../../shared/components/Footer";
 
 const Article = () => {
   const { id } = useParams();
+  const isAdmin = true; // Replace with actual admin check logic
+  const isAuthor = true; // Replace with actual author check logic
   //   console.log(id);
   const article = ARTICLES.find((article) => article.id === id);
   if (!article) {
@@ -19,8 +21,7 @@ const Article = () => {
       </>
     );
   }
-  const isAdmin = true; // Replace with actual admin check logic
-  const isAuthor = true; // Replace with actual author check logic
+
   return (
     <>
       <Navbar />
@@ -34,13 +35,13 @@ const Article = () => {
           <div className="flex flex-row gap-10 py-10">
             <Link
               to={`/#edit`}
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
             >
               Edit Article
             </Link>
             <Link
               to={`/#delete`}
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg"
+              className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
             >
               Delete Article
             </Link>
