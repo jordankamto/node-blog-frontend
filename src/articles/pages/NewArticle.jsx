@@ -9,7 +9,7 @@ const NewArticle = () => {
     console.log(id);
     const title = document.getElementById("title").value;
     console.log(title);
-    const imageUrl = "../assets/image.png";
+    const imageUrl = "/assets/image.png";
     console.log(imageUrl);
     const content = document.getElementById("content").value;
     console.log(content);

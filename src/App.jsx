@@ -12,6 +12,7 @@ import Notfound from "./Notfound";
 import ArticleList from "./articles/components/ArticleItem";
 import Article from "./articles/pages/Article";
 import NewArticle from "./articles/pages/NewArticle";
+import EditArticle from "./articles/pages/EditArticle";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/article/:id" exact element={<Article />} />
         <Route path="/article/all" exact element={<Home />} />
         <Route path="/article/new" exact element={<NewArticle />} />
+        <Route path="/article/edit/:id" exact element={<EditArticle />} />
         {/* <Route path="/test" exact element={<ArticleList />} /> */}
         <Route path="/users" exact element={<Users />} />
         <Route path="*" element={<Navigate to="/not-found" replace />} />

@@ -10,7 +10,7 @@ const Footer = () => {
           className="flex justify-center items-center text-2xl font-semibold text-gray-900"
         >
           <img
-            src="../svg/logoipsum-368.svg"
+            src="/svg/logoipsum-368.svg"
             className="mr-3 h-6 sm:h-9"
             alt="React-Blog Logo"
           />
