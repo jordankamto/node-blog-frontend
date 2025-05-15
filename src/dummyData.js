@@ -46,3 +46,10 @@ export const ARTICLES = [
     publishedDate: "08/05/2025",
   },
 ];
+
+export const AUTH = [
+  {
+    username: "admin",
+    password: "admin",
+  },
+];

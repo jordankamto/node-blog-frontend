@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   // Dummy authentication state
   const isAuthenticated = false; // Change this to true to simulate an authenticated user
-  const isRegistered = false; // Change this to true to simulate a registered user
+  const isRegistered = true; // Change this to true to simulate a registered user
 
   return (
     <header>
@@ -30,14 +30,14 @@ const Navbar = () => {
               </Link>
             ) : isRegistered ? (
               <Link
-                to="#login"
+                to="/auth/login"
                 className="text-gray-800 bg-blue-500 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
               >
                 Log in
               </Link>
             ) : (
               <Link
-                to="#signup"
+                to="/auth/signup"
                 className="text-gray-800 bg-blue-300 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
               >
                 Sign up
