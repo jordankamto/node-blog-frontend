@@ -22,6 +22,15 @@ const Article = () => {
     );
   }
 
+  const deleteArticle = () => {
+    const articleIndex = ARTICLES.findIndex(article => article.id === id);
+    if (articleIndex !== -1) {
+      ARTICLES.splice(articleIndex, 1);
+      console.log(ARTICLES);
+      // window.location.href = "/articles/all";
+    }
+  };
+
   return (
     <>
       <Navbar />
@@ -39,12 +48,13 @@ const Article = () => {
             >
               Edit Article
             </Link>
-            <Link
-              to={`/#delete`}
+            <button
+              onClick={deleteArticle}
+              type="button"
               className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
             >
               Delete Article
-            </Link>
+            </button>
           </div>
         ) : null}
       </div>
