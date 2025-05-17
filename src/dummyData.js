@@ -49,7 +49,7 @@ export const ARTICLES = [
 
 export const AUTH = [
   {
-    username: "admin",
+    email: "admin@mail.com",
     password: "admin",
   },
 ];

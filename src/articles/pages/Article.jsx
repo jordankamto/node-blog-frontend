@@ -12,13 +12,13 @@ const Article = () => {
   const article = ARTICLES.find((article) => article.id === id);
   if (!article) {
     return (
-      <>
+      <div className="min-h-screen flex flex-col">
         <Navbar />
-        <div className="flex flex-row justify-center py-10">
+        <div className="flex-grow flex flex-row justify-center items-center">
           <h2 className="text-2xl font-bold">Article not found.</h2>
         </div>
         <Footer />
-      </>
+      </div>
     );
   }
 
